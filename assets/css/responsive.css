@@ -1,0 +1,292 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    main{
+        min-width: 100%;
+        max-width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .sdfm-inner-wrapper {
+        width: 29% !important;
+    }
+
+
+
+
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    main{
+        min-width: 100%;
+        max-width: 100%;
+        margin: auto;
+        position: relative;
+      }
+    .menu-area nav ul li a {
+        font-size: 16px; 
+        margin-left: 30px; 
+    }
+    .hero-area img.hr-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 640px;
+    }
+    .sdfm-inner-wrapper {
+        width: 29% !important;
+    }
+
+
+
+
+
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    main{
+        min-width: 100%;
+        max-width: 100%;
+        margin: auto;
+        position: relative;
+      } 
+    .hero-area img.hr-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 440px;
+    }
+    .sdfm-inner-wrapper {
+        width: 44% !important;
+    }
+    .about-wrp {
+        margin-top: 60px;
+    }
+    .pr-blk {
+        margin-bottom: 30px;
+    }
+    .project-area:after { 
+        width: 95%;
+        height: 370px; 
+    }
+    .pr-blk h2 { 
+        bottom: 50px; 
+    }
+    .footer-widget a.logo {
+        opacity: 1;
+        margin-bottom: 80px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    main{
+        min-width: 100%;
+        max-width: 100%;
+        margin: auto;
+        position: relative;
+      } 
+      .hero-area img.hr-img {
+        position: unset;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin: auto;
+    }
+    .sdfm-inner-wrapper {
+        width: 100% !important;
+        margin: 16px 0 !important;
+    }
+    .about-wrp {
+        margin-top: 60px;
+    }
+    .pr-blk {
+        margin-bottom: 30px;
+    }
+    .project-area:after { 
+        width: 95%;
+        height: 370px; 
+    }
+    .pr-blk h2 { 
+        bottom: 50px; 
+    }
+    .footer-widget a.logo {
+        opacity: 1;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .bar a span {
+        background-color: #ff4900;
+      } 
+    .bar a span:before {
+        background-color: #ff4900;
+      } 
+     .bar a span:after {
+        background-color: #ff4900;
+    } 
+    .hero-wrp h1 {
+        font-size: 46px;
+    }
+    .hero-area {  
+        padding-bottom: 140px;
+        position: relative;
+    }
+    .hero-wrp {
+        margin-top: 0px;
+    }
+    a.theme-btn { 
+        width: 115px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 30px; 
+        font-size: 13px; 
+    }
+    .hero-wrp ul {
+        margin-top: 80px;
+    }
+    .about-img img {
+        width: 90%;
+        height: 370px;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+    .about-img:after {
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 350px;
+        background: rgba(255, 73, 0, 0.1);
+        border-radius: 57px;
+        left: 0;
+        bottom: 0;
+    }
+    .about-wrp h4 {
+        font-size: 33px;
+        line-height: 41px;
+        margin-bottom: 35px;
+        margin-top: 10px;
+    }
+    .section-title h3 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+    .project-area:after {
+        width: 100%;
+        height: 100%;
+    }
+    .portfolio-area:after { 
+        border-radius: 0; 
+    }
+    .filter-btns button { 
+        margin: 0 10px; 
+    }
+    .testimonail-item { 
+        padding: 30px 15px; 
+    }
+    .newsLatter-form h2 {
+        font-size: 26px;
+        margin-bottom: 80px;
+    }
+    .newsLatter-form .inp-blk { 
+        height: 40px; 
+        border-radius: 0;
+    }
+    .newsLatter-form .inp-blk button {
+        position: unset;
+        right: 12px;
+        top: 12px;
+        width: 100%;
+        height: 40px;
+        background: #FF4900;
+        border: 1px solid #FF4900;
+        color: #fff;
+        border-radius: 3px;
+        text-transform: capitalize;
+        font-size: 22px;
+        outline: none;
+        cursor: pointer;
+    }
+    .newsLatter-form .inp-blk input[type="email"] {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .newsLatter-form .inp-blk ::placeholder{ 
+        font-size: 15px;
+    }
+    .footer-widget {
+        margin-top: 70px;
+    }
+    .copy-menus { 
+        text-align: center;
+    }
+    .copy-menus li a { 
+        margin: 0 10px;
+    }
+    .copy-text {
+        text-align: center;
+    }
+    .footer-widget.cnt ul.social {
+        margin-top: 10px;
+    }
+    footer {
+        position: relative;
+        background-image: url(../img/footer-snp.png);
+        background-size: cover;
+        background-position: top center;
+        padding-top: 80px;
+        margin-top: 0;
+    }
+    .sticky {
+        padding: 15px 0;
+    }
+    .hero-area .scrool-down { 
+        bottom: 0; 
+    }
+    .about-area {
+        padding-top: 150px;
+        padding-bottom: 140px;
+    }
+
+    .services-blk {
+        border: 1px solid rgba(255, 73, 0, 0.1);
+        border-radius: 40px;
+        padding: 70px 25px;
+        transition: .3s;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
